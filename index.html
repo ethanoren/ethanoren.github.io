@@ -2,17 +2,21 @@
 <!-- To-Do:
 -Fix scaling of text on smaller window sizes
 -About page, Work experience page, Resume, Projects page, Skills page, Contact page.
-fdslksnawfmkdslmcsdlkmclksmdczx
 
 
 -->
+
+<!-- Josh Comeau's Modern CSS Reset -->
+
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Ethan Oren</title>
   <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    
 
   <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,29 +26,57 @@ fdslksnawfmkdslmcsdlkmclksmdczx
 
 <body>
 
-<div class="hero1">
+<div id="hero1">
     <header>
+        
         <a href="#about">About</a>
-        <a href="2">Link 2</a>
-        <a href="3">Link 3</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
     </header>
     <div class="hero1text">Ethan Oren</div>
 </div>
     
 
 <div id="about">
-    <h1>About Me</h1>
+    <h2>About Me</h2>
     <div class="aboutme_info">
         <div class="portrait">
-        Portrait Placeholder
         <!-- <img src="portrait.jpg" alt="Ethan Oren"> -->
         </div>
-        <h2>Hello! My name is Ethan Oren. I am a student at the Cambridge Rindge and Latin school, and will graduate in 2026. I am an avid photographer, play the cello, and am interested in computer science and electronics.</h2>
+        <h3>Hello! My name is Ethan Oren. I am a student at the Cambridge Rindge and Latin school, and will graduate in 2026. I am an avid photographer, play the cello, and am interested in computer science and electronics.</h3>
     </div>
 </div>
 
 <div id="projects">
-    
+    <h2>Projects</h2>
+    <div class="projectmenu">
+        
+        <a href="" download="/projects/createtask-code.pdf" class="projectimage"> <img src="/projects/createtask.png" class="" alt="Project 1"> </a>
+        <a href="https://docs.google.com/presentation/d/1k_x8JIAHXX_3-atFfpKLg-eIgsMyfbNdKQ0jW_xzMhg/edit?usp=sharing" class="projectimage"> <img src="/projects/5StillLives.png" class="" alt="Five Still Lives"> </a>
+        <a href="https://docs.google.com/presentation/d/1CuXr_XF9YvYlKACvCTODv27eGz4lcHEe6dw5tM0EVvw/edit?usp=sharing" class="projectimage"> <img src="/projects/advertisement-photography.png" class="" alt="Advretisement Photography"> </a>
+        <a><img src="/projects/project1.png" class="projectimage" alt="Project 1"></a>
+        <a><img src="/projects/project1.png" class="projectimage" alt="Project 1"></a>
+        <a><img src="/projects/project1.png" class="projectimage" alt="Project 1"></a>
+        <a><img src="/projects/project1.png" class="projectimage" alt="Project 1"></a>
+        
+    </div>
+</div>   
+
+<div id="skills">
+    <h2>Skills / Extracurriculars</h2>
+    <div class="skills_info">
+        <h3>Outside of school hours I participate in my school's orchestra, and take photographs on my own time. Here are some of my other skills:</h3>
+    </div>
+    <div class="skills_icons">
+        <ion-icon name="logo-python"></ion-icon> <h2>Python</h2> <br>
+        <ion-icon name="logo-html5"></ion-icon> <h2>HTML</h2> <br>
+        <ion-icon name="logo-css3"></ion-icon> <h2>CSS</h2> <br>
+    </div>
+</div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
